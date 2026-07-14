@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Instagram, Mail, ExternalLink, ChevronRight, Heart, Users, Lightbulb } from 'lucide-react';
 
-const OTTER_HERO = 'https://images.pexels.com/photos/4621626/pexels-photo-4621626.jpeg?auto=compress&cs=tinysrgb&w=800';
+const OTTER_HERO = 'https://images.pexels.com/photos/38058083/pexels-photo-38058083.jpeg?auto=compress&cs=tinysrgb&w=800';
 const COMMUNITY_IMGS = [
   'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400',
   'https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400',
