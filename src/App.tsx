@@ -9,6 +9,7 @@ import Community from './pages/Community';
 import Profile from './pages/Profile';
 import Settings from './pages/Settings';
 import Programs from './pages/Programs';
+import Members from './pages/Members';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
                   <Route path="/" element={<Home />} />
                   <Route path="/community" element={<Community />} />
                   <Route path="/programs" element={<Programs />} />
+                  <Route path="/members" element={<Members />} />
                   <Route path="/profile/:username" element={<Profile />} />
                   <Route path="/settings" element={<Settings />} />
                 </Routes>

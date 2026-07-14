@@ -40,6 +40,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     { to: '/', label: 'Home', icon: <Home size={18} /> },
     { to: '/community', label: 'Community', icon: <Users size={18} /> },
     { to: '/programs', label: 'Programs', icon: <BookOpen size={18} /> },
+    { to: '/members', label: 'Members', icon: <Users size={18} /> },
   ];
 
   const isActive = (path: string) =>
