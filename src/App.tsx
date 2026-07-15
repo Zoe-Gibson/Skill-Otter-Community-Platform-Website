@@ -30,7 +30,8 @@ function App() {
                   <Route path="/" element={<Home />} />
                   <Route path="/community" element={<Community />} />
                   <Route path="/programs" element={<Programs />} />
-                  <Route path="/members" element={<Members />} />
+                  <Route path="/founders" element={<Members />} />
+                  <Route path="/founders/:slug" element={<Members />} />
                   <Route path="/profile/:username" element={<Profile />} />
                   <Route path="/settings" element={<Settings />} />
                 </Routes>
